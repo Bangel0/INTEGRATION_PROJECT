@@ -1,17 +1,18 @@
-body{
+body {
     padding: 0%;
     margin: 0%;
-    
+
 
 }
 
 
-#name1{
+#name1 {
     color: black;
     font-size: 30px;
     font-style: italic;
 }
-#name2{
+
+#name2 {
     display: flex;
     justify-content: space-between;
 }
