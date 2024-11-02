@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo empleado</title>
+    <link rel="stylesheet" href="./Empleado.css">
+</head>
+
+<body id="style1">
+    <main>
+        <form action="">
+            <label for="name"><span>¿Cuál es tu nombre?</span>
+                <input type="text" id="name" name="name" required></label><br><br>
+            <label for="id"><span>¿Cuál es tu número de identificación?</span>
+                <input type="text" id="id" name="id" required></label><br><br>
+            <label for="cargo">
+                <span>¿Cuál es tu cargo?</span>
+                <select id="cargo" name="cargo" required>
+                    <option value="">Seleccione un cargo</option>
+                    <option value="1">Director</option>
+                    <option value="2">Jefe de área</option>
+                    <option value="3">Empleado</option>
+                    <option value="4">Auxiliar</option>
+                    <option value="5">Gerente de proyecto</option>
+                    <option value="6">Gerente general</option>
+                    <option value="7">Encargado de recursos humanos</option>
+                    <option value="8">Encargado de finanzas</option>
+                    <option value="9">Encargado de marketing</option>
+                    <option value="10">Encargado de ventas</option>
+                    <option value="11">Encargado de logística</option>
+                    <option value="12">Encargado de contabilidad</option>
+                    <option value="13">Encargado de seguridad y salud</option>
+                </select>
+            </label>
+            <br><br>
+            <label for="horarios">
+                <span>¿Cuál es tu horario?</span>
+                <select id="horarios" name="horarios" required>
+                    <option value="">Seleccione un horario</option>
+                    <option value="1">Mañana</option>
+                    <option value="2">Tarde</option>
+                    <option value="3">Noche</option>
+                </select>
+            </label>
+            <br><br>
+            <label for="ingreso">
+                <span>horario de ingreso</span>
+                <input type="time" id="ingreso" name="ingreso" required>
+            </label>
+            <br><br>
+            <label for="salida">
+                <span>horario de salida</span>
+                <input type="time" id="salida" name="salida" required>
+            </label>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </main>
+
+</body>
+
+</html>
