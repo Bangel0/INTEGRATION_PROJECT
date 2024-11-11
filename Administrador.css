@@ -1,3 +1,23 @@
-table {
-    border: red solid;
+body{
+    background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+    
+}
+#container{
+    background-color: white;
+    width: 280px;
+    height: 1000px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+}
+
+#container3{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+
+    
 }
