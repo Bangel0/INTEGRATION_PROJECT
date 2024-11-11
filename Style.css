@@ -16,3 +16,78 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.container {
+    padding: auto;
+    height: 100vh;
+    background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+}
+.card__container{  
+    position:absolute;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top:  350px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#texto1{
+    color: black;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+#parrafo1{
+    font-size: 22px;
+    font-style: italic;
+}
+#button1{
+    
+    padding: 5px;
+    margin: 5px;
+   background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+    color: black;
+
+}
+.card__container2{
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top:  350px;
+    margin-left: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-size: 24px;
+    
+}
+#texto2{
+    color: black;
+    margin-bottom: 20px;
+    font-style: italic;
+
+}
+
+#parrafo2{
+    font-size: 22px;
+    font-style: italic;
+}
+#button2{
+    padding: 5px;
+    margin: 5px;
+   background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+    color: black;
+}
