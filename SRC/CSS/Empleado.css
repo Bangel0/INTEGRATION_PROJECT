@@ -1,107 +1,98 @@
 #style1 {
-    background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
-    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
 }
 
 #name1 {
-    display: flex;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    gap: 15px;
-    margin-right: 500px;
-    margin-left: 100px;
-
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 15px;
+  margin-right: 500px;
+  margin-left: 100px;
 }
 
 #identificación1 {
-    display: flex;
-    background: white;
-    padding: 20px;
-    border-radius: 12px ;
-    gap: 15px;
-    margin-right: 500px;
-    margin-left: 100px;
-
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 15px;
+  margin-right: 500px;
+  margin-left: 100px;
 }
 
 #cargo1 {
-    display: flex;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    gap: 15px;
-    margin-right: 500px;
-    margin-left: 100px;
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 15px;
+  margin-right: 500px;
+  margin-left: 100px;
 }
 
 #horario1 {
-    display: flex;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    gap: 15px;
-    margin-right: 500px;
-    margin-left: 100px;
-
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 15px;
+  margin-right: 500px;
+  margin-left: 100px;
 }
 
 #ingreso1 {
-    display: flex;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    gap: 15px;
-    margin-right: 500px;
-    margin-left: 100px;
-
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 15px;
+  margin-right: 500px;
+  margin-left: 100px;
 }
 
 #salida1 {
-    display: flex;
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    gap: 15px;
-    margin-right: 500px;
-    margin-left: 100px;
-
+  display: flex;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 15px;
+  margin-right: 500px;
+  margin-left: 100px;
 }
 
 button {
-    background: white;
-    cursor: pointer;
-    border: none;
-    padding: 12px 42px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
-    position: relative;
-    border-radius: 12px;
-    box-shadow: 3px 3px 5px black;
-    margin-right: 500px;
-    margin-left: 500px;
-    
-    
-   
+  background: white;
+  cursor: pointer;
+  border: none;
+  padding: 12px 42px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 3px 3px 5px black;
+  margin-right: 500px;
+  margin-left: 500px;
 }
-
 
 h1 {
-    display: flex;
-    justify-content: none;
-    text-shadow: 3px 3px 6px white;
-    margin-right: 500px;
-    margin-left: 100px;
+  display: flex;
+  justify-content: none;
+  text-shadow: 3px 3px 6px white;
+  margin-right: 500px;
+  margin-left: 100px;
 }
 #button1 {
-    padding: 10px;
-    border-radius: 5 px solid;
-    border-bottom-color: #0ff;
+  padding: 10px;
+  border-radius: 5 px solid;
+  border-bottom-color: #0ff;
 }

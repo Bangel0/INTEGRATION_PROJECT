@@ -1,108 +1,103 @@
 body {
-    padding: 0%;
-    margin: 0%;
-    background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
-    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  padding: 0%;
+  margin: 0%;
+  background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
 }
-header{
-    background-color: white;
+header {
+  background-color: white;
 }
 
 #name1 {
-    color: black;
-    font-size: 30px;
-    font-style: italic;
+  color: black;
+  font-size: 30px;
+  font-style: italic;
 }
 
 #name2 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
-    padding: auto;
-    height: 100vh;
-    background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
-    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  padding: auto;
+  height: 100vh;
+  background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
 }
-.card__container{  
-    position:absolute;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top:  150px;
-    margin-left: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    height: 300px;
-    text-align: center;
-    font-size: 24px;
-}
-
-#texto1{
-    color: black;
-    margin-bottom: 20px;
-    font-style: italic;
-}
-#parrafo1{
-    font-size: 22px;
-    font-style: italic;
-}
-#button1{
-    
-    padding: 5px;
-    margin: 5px;
-   background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
-    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
-    color: black;
-
-}
-.card__container2{
-    position: absolute;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top:  150px;
-    margin-left: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    height: 300px;
-    text-align: center;
-    font-size: 24px;
-    
-}
-#texto2{
-    color: black;
-    margin-bottom: 20px;
-    font-style: italic;
-
+.card__container {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  font-size: 24px;
 }
 
-#parrafo2{
-    font-size: 22px;
-    font-style: italic;
+#texto1 {
+  color: black;
+  margin-bottom: 20px;
+  font-style: italic;
 }
-#button2{
-    padding: 5px;
-    margin: 5px;
-   background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
-    background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
-    color: black;
+#parrafo1 {
+  font-size: 22px;
+  font-style: italic;
+}
+#button1 {
+  padding: 5px;
+  margin: 5px;
+  background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  color: black;
+}
+.card__container2 {
+  position: absolute;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-left: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  font-size: 24px;
+}
+#texto2 {
+  color: black;
+  margin-bottom: 20px;
+  font-style: italic;
 }
 
-#parrafo3{
-    margin-top: 50px;
+#parrafo2 {
+  font-size: 22px;
+  font-style: italic;
+}
+#button2 {
+  padding: 5px;
+  margin: 5px;
+  background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
+  color: black;
 }
 
-button{
-    margin-top: 20px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    
+#parrafo3 {
+  margin-top: 50px;
+}
+
+button {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }

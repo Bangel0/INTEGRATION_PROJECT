@@ -1,124 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/Administrador.css" />
+    <link rel="icon" href="imagenes/Tyme .jpg" type="img/jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Modulo Administrativo</title>
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="CSS/Administrador.css">
-   <script src="https://cdn.tailwindcss.com"></script>
-
-
-   <title>Modulo Administrativo</title>
-</head>
-
-<body>
-
-   <main id="container" class="">
-
-
-
-      <section>
-      </section>
-   </main>
-   <section id="container3">
+  <body>
+    <main id="container" class="">
+      <section></section>
+    </main>
+    <section class="section-nav">
       <header>
-         <h1>Panel de Administración</h1>
+        <h1>Panel de Administración</h1>
       </header>
       <table id="tabla1">
-         <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>contraseña </th>
-            <th>cargo</th>
-         </tr>
-         <tr>
-            <td>1</td>
-            <td>Juan</td>
-            <td>10348741</td>
-            <td>Director</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>2</td>
-            <td>Maria</td>
-            <td>1156564</td>
-            <td>Empleado</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>3</td>
-            <td>Pedro</td>
-            <td>665456</td>
-            <td>Empleado</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>4</td>
-            <td>Ana</td>
-            <td>8955421</td>
-            <td>Marketing</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>5</td>
-            <td>José</td>
-            <td>7854152</td>
-            <td>Logistica</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>6</td>
-            <td>Luis</td>
-            <td>556151</td>
-            <td>Jefe de área</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>7</td>
-            <td>María</td>
-            <td>78454</td>
-            <td>Pasante</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>8</td>
-            <td>Juan</td>
-            <td>78451</td>
-            <td>APH</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>9</td>
-            <td>Pedro</td>
-            <td>69542</td>
-            <td>OP</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>10</td>
-            <td>Ana</td>
-            <td>78954</td>
-            <td>Director</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>11</td>
-            <td>José</td>
-            <td>765564</td>
-            <td>Auxiliar</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-         <tr>
-            <td>12</td>
-            <td>Luis</td>
-            <td>889955</td>
-            <td>Aprendiz</td>
-            <td><a href="#">exportar</a> <a href="#">editar</a> <a href="#">eliminar</a></td>
-         </tr>
-
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>contraseña</th>
+          <th>cargo</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Juan</td>
+          <td>10348741</td>
+          <td>Director</td>
+          <td>
+            <a  class="section-nav__item" href="#">Exportar</a> <a class="section-nav__item" href="#">Editar</a>
+            <a class="section-nav__item" href="#">Eliminar</a> <a class="section-nav__item" href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Maria</td>
+          <td>1156564</td>
+          <td>Empleado</td>
+          <td>
+            <a href="#">Exportar</a> <a href="#">Editar</a>
+            <a href="#">Eliminar</a> <a href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Pedro</td>
+          <td>665456</td>
+          <td>Empleado</td>
+          <td>
+            <a href="#">Exportar</a> <a href="#">Editar</a>
+            <a href="#">Eliminar</a> <a href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Ana</td>
+          <td>8955421</td>
+          <td>Marketing</td>
+          <td>
+            <a href="#">Exportar</a> <a href="#">Editar</a>
+            <a href="#">Eliminar</a> <a href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>José</td>
+          <td>7854152</td>
+          <td>Logística</td>
+          <td>
+            <a href="#">Exportar</a> <a href="#">Editar</a>
+            <a href="#">Eliminar</a> <a href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Luis</td>
+          <td>556151</td>
+          <td>Jefe de área</td>
+          <td>
+            <a href="#">Exportar</a> <a href="#">Editar</a>
+            <a href="#">Eliminar</a> <a href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>María</td>
+          <td>78454</td>
+          <td>Pasante</td>
+          <td>
+            <a class="nav__items" href="#">Exportar</a> <a href="#">Editar</a>
+            <a href="#">Eliminar</a> <a href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Juan</td>
+          <td>78451</td>
+          <td>APH</td>
+          <td>
+            <a class="nav__items" href="#">Exportar</a> <a class="nav__items" href="#">Editar</a>
+            <a class="nav__items" href="#">Eliminar</a> <a class="nav__items" href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Pedro</td>
+          <td>69542</td>
+          <td>OP</td>
+          <td>
+            <a class="nav__items" href="#">Exportar</a> <a class="nav__items" href="#">Editar</a>
+            <a class="nav__items" href="#">Eliminar</a> <a class="nav__items" href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Ana</td>
+          <td>78954</td>
+          <td>Director</td>
+          <td>
+            <a class="nav__items" href="#">Exportar</a> <a class="nav__items" href="#">Editar</a>
+            <a class="nav__items" href="#">Eliminar</a> <a class="nav__items" href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>José</td>
+          <td>765564</td>
+          <td>Auxiliar</td>
+          <td>
+            <a class="nav__items" href="#">Exportar</a> <a class="nav__items" href="#">Editar</a>
+            <a class="nav__items" href="#">Eliminar</a> <a class="nav__items" href="#">Horarios</a>
+          </td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Luis</td>
+          <td>889955</td>
+          <td>Aprendiz</td>
+          <td>
+            <a class="nav__items" href="#">Exportar</a> <a class="nav__items" href="#">Editar</a>
+            <a class="nav__items" href="#">Eliminar</a> <a class="nav__items" href="#">Horarios</a>
+          </td>
+        </tr>
       </table>
-   </section>
-
-</body>
-
+    </section>
+  </body>
 </html>
