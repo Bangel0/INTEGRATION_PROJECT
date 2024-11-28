@@ -4,6 +4,7 @@ body {
   background: -webkit-linear-gradient(90deg, #c7f2ff, #5cd3ff);
   background: linear-gradient(90deg, #c7f2ff, #5cd3ff);
 }
+
 header {
   background-color: white;
 }
@@ -100,4 +101,17 @@ button {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+ @media (max-width: 768px) {
+  .card__container2 {
+    width: 80%;
+    font-size: 20px;
+    margin-top: 300px;
+ }
+}
+@media (max-width: 480px) {
+  .card__container2{
+    width: 90%;
+    font-size: 18px;
+  }  
 }
